@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mahshid Aghania</title>
+<style>
+  :root { --bg:#f5f7fa; --card:#ffffff; --ink:#1b2530; --muted:#637282; --accent:#2f72c4; --line:#e2e8f0; }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){ --bg:#0f1621; --card:#17202d; --ink:#e8edf2; --muted:#93a3b4; --accent:#5aa0e8; --line:#26303d; }
+  }
+  :root[data-theme="dark"]{ --bg:#0f1621; --card:#17202d; --ink:#e8edf2; --muted:#93a3b4; --accent:#5aa0e8; --line:#26303d; }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--bg);color:var(--ink);font-family:"Helvetica Neue",Arial,sans-serif;line-height:1.5;
+       display:flex;justify-content:center;padding:48px 16px;}
+  .wrap{width:100%;max-width:640px;}
+  header{margin-bottom:28px;}
+  h1{font-size:34px;letter-spacing:.3px;}
+  .role{color:var(--accent);font-weight:600;font-size:17px;margin-top:4px;}
+  .loc{color:var(--muted);font-size:14px;margin-top:4px;}
+  h2{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin:26px 0 12px;}
+  a.doc{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--line);
+        border-radius:12px;padding:16px 18px;text-decoration:none;color:var(--ink);margin-bottom:12px;
+        transition:border-color .15s, transform .15s;}
+  a.doc:hover{border-color:var(--accent);transform:translateY(-1px);}
+  .ic{width:38px;height:38px;border-radius:9px;background:var(--accent);color:#fff;display:flex;
+      align-items:center;justify-content:center;font-size:15px;font-weight:700;flex:0 0 auto;}
+  .doc .t{font-weight:600;font-size:15.5px;}
+  .doc .s{color:var(--muted);font-size:13px;margin-top:2px;}
+  .contact{margin-top:28px;font-size:14px;color:var(--muted);}
+  .contact a{color:var(--accent);text-decoration:none;}
+  footer{margin-top:34px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padding-top:16px;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Mahshid Aghania</h1>
+      <div class="role">Teaching Assistant · PhD Student, Computer Science</div>
+      <div class="loc">Ontario Tech University — Toronto / Oshawa, ON, Canada</div>
+    </header>
+
+    <h2>Résumé</h2>
+    <a class="doc" href="Mahshid_Aghania_Resume.pdf">
+      <span class="ic">CV</span>
+      <span><span class="t">Résumé — Mahshid Aghania</span><span class="s">PDF · Teaching Assistant</span></span>
+    </a>
+
+    <h2>Academic Transcripts</h2>
+    <a class="doc" href="Mahshid_Aghania_Transcript_Lethbridge_MSc.pdf">
+      <span class="ic">UL</span>
+      <span><span class="t">M.Sc. Computer Science — University of Lethbridge</span><span class="s">Official transcript · PDF</span></span>
+    </a>
+    <a class="doc" href="Mahshid_Aghania_Transcript_IAU_Masters.pdf">
+      <span class="ic">IAU</span>
+      <span><span class="t">M.Sc. Electrical Engineering — Islamic Azad University</span><span class="s">Transcript (English translation) · PDF</span></span>
+    </a>
+
+    <div class="contact">
+      <a href="https://www.linkedin.com/in/mahshidaghania">LinkedIn</a> ·
+      <a href="https://github.com/mahshid-aghania">GitHub</a>
+    </div>
+
+    <footer>© Mahshid Aghania</footer>
+  </div>
+</body>
+</html>
